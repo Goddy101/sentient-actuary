@@ -1,0 +1,21 @@
+{
+  "name": "sentient-server",
+  "version": "1.0.0",
+  "description": "Backend for Sentient Aggregator",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "curate": "node cron/curator.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.5",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.16.0",
+    "mongoose": "^8.9.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

@@ -1,0 +1,25 @@
+name: sentient-market-creator
+version: 1.0.0
+wasm: ./create-market.wasm
+
+staging-settings:
+  network: local
+  user-workflow:
+    workflow-name: "sentient-market-staging"
+  workflow-artifacts:
+    workflow-path: "./create-market.ts"
+    config-path: "./config.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+production-settings:
+  network: local
+  user-workflow:
+    workflow-name: "sentient-market-production"
+  workflow-artifacts:
+    workflow-path: "./create-market.ts"
+    config-path: "./config.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org

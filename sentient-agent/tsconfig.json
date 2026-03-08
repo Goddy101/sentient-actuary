@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@chainlink/cre-sdk": ["node_modules/@chainlink/cre-sdk"]
+    },
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": [
+    "**/*.ts",
+    "underwriter-workflow/**/*.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
+
+
+
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "ESNext",
+//     "moduleResolution": "node",
+//     "baseUrl": ".",
+//     "paths": {
+//       "*": ["node_modules/*"]
+//     },
+//     "strict": true,
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true
+//   },
+//   "include": ["src/**/*"]
+// }

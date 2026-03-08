@@ -1,0 +1,90 @@
+# ==================================================================
+# UNDERWRITER AGENT (Proactive Cron)
+# ==================================================================
+underwriter-staging:
+  user-workflow:
+    workflow-name: "sentient-underwriter-staging"
+  workflow-artifacts:
+    workflow-path: "./underwriter.ts"
+    config-path: "./config.staging.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+underwriter-production:
+  user-workflow:
+    workflow-name: "sentient-underwriter-production"
+  workflow-artifacts:
+    workflow-path: "./underwriter.ts"
+    config-path: "./config.production.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+# ==================================================================
+# RESOLUTION AGENT (Reactive EVM Log)
+# ==================================================================
+resolution-staging:
+  user-workflow:
+    workflow-name: "sentient-resolution-staging"
+  workflow-artifacts:
+    workflow-path: "./resolution.ts"
+    config-path: "./config.staging.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+resolution-production:
+  user-workflow:
+    workflow-name: "sentient-resolution-production"
+  workflow-artifacts:
+    workflow-path: "./resolution.ts"
+    config-path: "./config.production.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+
+# ==================================================================
+# BANK VERIFIER AGENT (Confidential HTTP)
+# ==================================================================
+bank-verifier-staging:
+  user-workflow:
+    workflow-name: "sentient-bank-verifier-staging"
+  workflow-artifacts:
+    workflow-path: "./bank-verifier.ts"
+    config-path: "./config.staging.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+
+
+# ==================================================================
+# WORLD ID VERIFIER AGENT (Mini App / Sybil Resistance)
+# ==================================================================
+world-id-staging:
+  user-workflow:
+    workflow-name: "sentient-world-id-staging"
+  workflow-artifacts:
+    workflow-path: "./world-id-verifier.ts"
+    config-path: "./config.staging.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+
+
+# ==================================================================
+# MOLTBOOK PUBLISHER AGENT (Daily Protocol Social Reports)
+# ==================================================================
+moltbook-staging:
+  user-workflow:
+    workflow-name: "sentient-moltbook-staging"
+  workflow-artifacts:
+    workflow-path: "./moltbook-publisher.ts"
+    config-path: "./config.staging.json"
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+

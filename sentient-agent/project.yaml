@@ -1,0 +1,15 @@
+name: sentient-agent
+version: 1.1.0
+description: "AI-Powered Risk and Resolution Agents for Sentient"
+
+# OFFICIAL SCHEMA (Part 3.1 of Docs): targets sitting at root
+# Keys MUST be 'chain-name' and 'url' (singular)
+staging-settings:
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org
+
+production-settings:
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: https://sepolia.base.org

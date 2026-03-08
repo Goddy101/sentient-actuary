@@ -1,0 +1,8 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[rpc_endpoints]
+base_sepolia = "https://sepolia.base.org"
+tenderly_war_room = "https://virtual.base-sepolia.eu.rpc.tenderly.co/df407c33-1be2-46f1-a65e-842ca0a4920d"

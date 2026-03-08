@@ -1,0 +1,17 @@
+{
+  "name": "sentient-market-creator",
+  "version": "1.0.0",
+  "main": "create-market.wasm",
+  "private": true,
+  "scripts": {
+    "postinstall": "bun x cre-setup",
+    "compile": "cre-compile create-market.ts create-market.wasm"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@chainlink/cre-sdk": "^1.0.9",
+    "viem": "2.34.0",
+    "zod": "3.25.76",
+    "@types/bun": "1.2.21"
+  }
+}
