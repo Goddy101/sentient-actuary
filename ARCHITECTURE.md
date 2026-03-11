@@ -37,7 +37,7 @@ Logic: Fetches the user's current Health Factor directly from the EVM. It then s
 
 Agent 2: The Privacy Shield (bank-verifier.ts)
 
-Trigger: HTTPCapability (Triggered via POST request from the frontend).
+Trigger: HTTPCapability (Triggered via POST request from the frontend). Link to frontend on verel: https://sentient-actuary.vercel.app/
 
 Capabilities Used: HTTPClient (Confidential Web2 fetch), EVMClient (Write).
 
