@@ -43,6 +43,7 @@ System Architecture
 1. The React Command Center (sentient-frontend)
 
 A cyberpunk-inspired frontend dashboard built with Vite, React, and Tailwind CSS. It visualizes the live state of the protocol, displays real-time WASM runtime logs from the CRE agents, and includes the World ID MiniKit integration.
+Link to frontend on verel: https://sentient-actuary.vercel.app/
 
 2. The Chainlink CRE Agents (sentient-agent/underwriter-workflow)
 
@@ -104,4 +105,5 @@ Link tp product demo:
 https://youtu.be/TX-LRODKi3c
 
 https://youtu.be/TX-LRODKi3c
+
 
