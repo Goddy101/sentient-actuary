@@ -36,6 +36,7 @@ Code: sentient-agent/underwriter-workflow/moltbook-publisher.ts (See the m/chain
 Execution: Giving an AI power over DeFi liquidity is dangerous. We built the Sentient War Room. Before the CRE agent is allowed to write to Base Mainnet, we route its transactions to a Tenderly Virtual TestNet shadow-fork, completely sandboxing our AI execution for enterprise-grade safety.
 
 Virtual TestNet Contract: 0x2eA10665158C5d871032CE4E2d52933f7C25eF3B
+Tenderly Virtual TestNet Explorer link: https://virtual.base-sepolia.eu.rpc.tenderly.co/10d3d60c-514f-4372-878d-f79fab0f2f06
 
 System Architecture
 
@@ -103,3 +104,4 @@ Link tp product demo:
 https://youtu.be/TX-LRODKi3c
 
 https://youtu.be/TX-LRODKi3c
+
