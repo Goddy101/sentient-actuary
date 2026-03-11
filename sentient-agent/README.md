@@ -40,13 +40,13 @@ cre workflow simulate . --target staging-settings --broadcast
 
 
 
-🧠 Sentient AI Agents: Chainlink CRE Integration
+Sentient AI Agents: Chainlink CRE Integration
 
 Welcome to the autonomous backend of Sentient, a next-generation DeFi protocol built on Base Sepolia.
 
 This repository contains our industrial-grade, multi-agent AI risk management system. It is built on the brand new Chainlink Runtime Environment (CRE) v1.1.0 SDK and leverages Decentralized Oracle Networks (DONs) to dynamically underwrite Real World Asset (RWA) collateral ratios in real-time.
 
-🏗️ Live Deployment
+Live Deployment
 
 Network: Base Sepolia
 
@@ -54,7 +54,7 @@ SentientVault Smart Contract: 0x72838b813a11691d1B68fBbd32C1eE6961A18022
 
 Features Integrated: Chainlink CCIP, Chainlink Data Feeds (ETH/USD), and Chainlink CRE Agent modifiers.
 
-🤖 Dual-Agent Architecture
+Dual-Agent Architecture
 
 Sentient utilizes two cooperating AI agents to manage protocol risk, ensuring decisions are cryptographically secured, consensus-driven, and tamper-proof.
 
@@ -113,13 +113,13 @@ Trigger the reactive agent using the transaction hash from Step 2 (Use index 0):
 cre workflow simulate my-workflow --target resolution-staging -v
 
 
-🛡️ Proof of Execution & Fault Tolerance
+Proof of Execution & Fault Tolerance
 
 Our agents are built with production-grade resilience. During testing, if the local CRE simulator encounters networking bottlenecks or HTTP payload encoding bugs (e.g., invalid base64 string in CLI v1.0.11), the agents automatically catch the error and execute a predefined BFT Fallback Logic to ensure the protocol remains secure.
 
 Agent 1: Underwriter Execution Trace
 
-[USER LOG] 📊 Sentient AI Actuary: Monitoring Vault 0x72838b813a11691d1B68fBbd32C1eE6961A18022
+[USER LOG] 📊Sentient AI Actuary: Monitoring Vault 0x72838b813a11691d1B68fBbd32C1eE6961A18022
 [USER LOG] 🔍 Live Chain Data: Health Factor = 1.157920892373162e+59
 [USER LOG] 🧠 AI Node analysis initiated for Health Factor: 1.157920892373162e+59
 [USER LOG] ⚠️ Live API Error (cannot decode field... invalid base64 string). Using standard BFT Fallback logic.
