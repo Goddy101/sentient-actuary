@@ -4,6 +4,11 @@ Sentient: AI-Underwritten RWA Command Center
 
 Sentient is a next-generation DeFi protocol that solves the "Capital Inefficiency" problem in emerging markets. It uses off-chain AI Agents to dynamically adjust collateral requirements based on real-world macroeconomic volatility, off-chain fiat reserves, and sybil-resistant human verification.
 
+Live Application: [https://sentient-actuary.vercel.app/](https://sentient-actuary.vercel.app/)
+(Note: Requires World App MiniKit or desktop browser simulation to trigger ZK-Proofs)
+
+Project Demo Video: [Watch on YouTube](https://youtu.be/TX-LRODKi3c)
+
 Hackathon Tracks Targeted
 
 I built a highly modular architecture designed to perfectly execute on six distinct hackathon bounties. Judges, please refer to the files linked below:
@@ -105,5 +110,6 @@ Link tp product demo:
 https://youtu.be/TX-LRODKi3c
 
 https://youtu.be/TX-LRODKi3c
+
 
 
